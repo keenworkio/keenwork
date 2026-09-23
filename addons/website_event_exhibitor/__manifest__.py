@@ -29,7 +29,7 @@
         'data/event_demo.xml',
         'data/event_sponsor_demo.xml',
     ],
-    'installable': True,
+    'installable': False,
     'assets': {
         'web.assets_frontend': [
             'website_event_exhibitor/static/src/scss/event_templates_sponsor.scss',

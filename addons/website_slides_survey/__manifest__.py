@@ -7,8 +7,8 @@
     'category': 'Website/eLearning',
     'version': '1.0',
     'depends': ['website_slides', 'survey'],
-    'installable': True,
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'data': [
         'security/ir.model.access.csv',
         'security/website_slides_survey_security.xml',

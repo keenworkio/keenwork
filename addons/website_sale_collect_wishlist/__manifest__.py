@@ -11,7 +11,8 @@ Allow users to add a product to wishlist if the product is not available for the
     'data': [
         'views/delivery_form_templates.xml',
     ],
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'author': 'Odoo S.A.',
     'license': 'LGPL-3',
 }

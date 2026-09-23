@@ -80,8 +80,8 @@
     'demo': [
         'data/demo.xml',
     ],
-    'installable': True,
-    'application': True,
+    'installable': False,
+    'application': False,
     'post_init_hook': '_post_init_hook',
     'uninstall_hook': 'uninstall_hook',
     'assets': {

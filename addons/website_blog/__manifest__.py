@@ -30,7 +30,7 @@
     'demo': [
         'data/website_blog_demo.xml'
     ],
-    'installable': True,
+    'installable': False,
     'assets': {
         'web.assets_backend': [
             'website_blog/static/src/tours/website_blog.js',

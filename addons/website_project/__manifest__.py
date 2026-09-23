@@ -15,8 +15,8 @@ Generate tasks in Project app from a form published on your website. This module
         'views/project_portal_project_task_template.xml',
         'views/project_portal_project_project_template.xml',
         ],
-    'installable': True,
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'assets': {
         'website.website_builder_assets': [
             'website_project/static/src/js/website_project_editor.js',

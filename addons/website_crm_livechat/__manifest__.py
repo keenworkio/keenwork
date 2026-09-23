@@ -10,8 +10,8 @@
     'data': [
         'views/website_crm_lead_views.xml',
     ],
-    'installable': True,
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'author': 'Odoo S.A.',
     'license': 'LGPL-3',
 }

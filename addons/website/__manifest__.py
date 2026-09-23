@@ -27,7 +27,7 @@
             'geoip2': 'python3-geoip2',
         },
     },
-    'installable': True,
+    'installable': False,
     'data': [
         # security.xml first, data.xml need the group to exist (checking it)
         'security/website_security.xml',

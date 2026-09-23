@@ -8,8 +8,8 @@
     'version': '1.0',
     'description': """Allows to send sms to website visitor if the visitor is linked to a lead.""",
     'depends': ['website_sms', 'crm'],
-    'installable': True,
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'author': 'Odoo S.A.',
     'license': 'LGPL-3',
 }

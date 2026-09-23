@@ -6,8 +6,8 @@
     'version': '1.0',
     'description': "Allow website visitors to chat with the collaborators.",
     'depends': ['website', 'im_livechat'],
-    'installable': True,
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'data': [
         'views/website_livechat.xml',
         'views/res_config_settings_views.xml',

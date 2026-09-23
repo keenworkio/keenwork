@@ -29,7 +29,8 @@
     'demo': [
         'data/quiz_demo.xml',
     ],
-    'installable': True,
+    'installable': False,
+    'auto_install': False,
     'assets': {
         'web.assets_frontend': [
             'website_event_track_quiz/static/src/scss/event_quiz.scss',

@@ -25,7 +25,8 @@
     'demo': [
         'data/slide_channel_demo.xml',
     ],
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'author': 'Odoo S.A.',
     'license': 'LGPL-3',
     'assets': {

@@ -6,7 +6,8 @@
     'summary': "Add a website snippet for the mail groups.",
     'version': '1.0',
     'depends': ['mail_group', 'website'],
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'data': [
         'views/snippets/s_group.xml',
         'views/snippets/snippets.xml',

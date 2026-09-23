@@ -26,7 +26,8 @@ Allow the user to select if he wants to receive email notifications when a produ
             ),
         ],
     },
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'author': 'Odoo S.A.',
     'license': 'LGPL-3',
 }

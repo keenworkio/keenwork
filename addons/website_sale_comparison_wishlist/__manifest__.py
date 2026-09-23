@@ -19,7 +19,8 @@ It allows for comparing products from the wishlist
             'website_sale_comparison_wishlist/static/src/**/*',
         ],
     },
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'author': 'Odoo S.A.',
     'license': 'LGPL-3',
 }

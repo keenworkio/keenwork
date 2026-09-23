@@ -8,7 +8,7 @@
     'version': '1.0',
 
     'depends': ['website_slides', 'website_sale'],
-    'installable': True,
+    'installable': False,
     'data': [
         'data/product_data.xml',
         'report/sale_report_views.xml',

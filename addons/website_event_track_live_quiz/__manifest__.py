@@ -15,8 +15,8 @@
     'data': [
         'views/event_track_templates_page.xml',
     ],
-    'installable': True,
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'assets': {
         'web.assets_frontend': [
             'website_event_track_live_quiz/static/src/interactions/**/*',

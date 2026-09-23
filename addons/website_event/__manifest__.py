@@ -48,7 +48,8 @@
         'data/event_registration_demo.xml',
         'data/event_registration_answer_demo.xml',
     ],
-    'application': True,
+    'application': False,
+    'installable': False,
     'assets': {
         'web.assets_backend': [
             'website_event/static/src/js/tours/**/*',

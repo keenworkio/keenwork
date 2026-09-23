@@ -15,7 +15,7 @@ Allow shoppers of your eCommerce store to create personalized collections of pro
         'views/website_sale_wishlist_template.xml',
         'views/website_sale_wishlist_template_svg.xml',
     ],
-    'installable': True,
+    'installable': False,
     'assets': {
         'web.assets_frontend': [
             'website_sale_wishlist/static/src/interactions/**/*',

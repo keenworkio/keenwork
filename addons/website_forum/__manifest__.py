@@ -57,7 +57,7 @@ Ask questions, get answers, no distractions
         'data/forum_tag_demo.xml',
         'data/forum_post_demo.xml',
     ],
-    'installable': True,
+    'installable': False,
     'assets': {
         'website.assets_editor': [
             'website_forum/static/src/js/systray_items/*.js',

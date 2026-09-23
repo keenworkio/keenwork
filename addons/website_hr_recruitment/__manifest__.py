@@ -21,8 +21,8 @@
     'demo': [
         'data/hr_job_demo.xml',
     ],
-    'installable': True,
-    'application': True,
+    'installable': False,
+    'application': False,
     'auto_install': ['hr_recruitment', 'website_mail'],
     'assets': {
         'web.assets_frontend': [

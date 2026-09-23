@@ -16,7 +16,8 @@ Sell event tickets through eCommerce app.
         'views/website_event_templates.xml',
         'views/website_sale_templates.xml',
     ],
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'assets': {
         'web.assets_tests': [
             'website_event_sale/static/tests/**/*',

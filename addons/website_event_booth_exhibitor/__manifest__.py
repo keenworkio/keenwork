@@ -19,7 +19,8 @@ Automatically create a sponsor when renting a booth.
         'views/event_booth_templates.xml',
         'views/mail_templates.xml'
     ],
-    'auto_install': True,
+    'auto_install': False,
+    'installable': False,
     'assets': {
         'web.assets_frontend': [
             '/website_event_booth_exhibitor/static/src/interactions/booth_sponsor_details.js',

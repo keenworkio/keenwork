@@ -10,7 +10,7 @@
     'description': """
 A chatbot to help the user be guided through recruitment process on the website and land on the right jobs position.
     """,
-    'installable': True,
+    'installable': False,
     'demo': [
         'data/website_hr_recruitment_livechat_chatbot_demo.xml'
     ],

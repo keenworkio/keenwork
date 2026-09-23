@@ -15,7 +15,8 @@ your visitors to subscribe with their phone number.
         'views/snippets/snippets_templates.xml',
         'data/ir_model_data.xml',
     ],
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'author': 'Odoo S.A.',
     'license': 'LGPL-3',
     'assets': {

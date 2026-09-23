@@ -12,7 +12,8 @@ Manage the inventory of your Kit products and display their availability status 
         'website_sale_stock',
         'sale_mrp',
     ],
-    'auto_install': True,
+    'installable': False,
+    'auto_install': False,
     'assets': {
         'web.assets_frontend': [
             'website_sale_mrp/static/src/js/**/*',

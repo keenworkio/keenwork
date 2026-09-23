@@ -67,8 +67,8 @@ Featuring
         'data/slide_user_demo.xml',
         'data/slide_user_gamification_demo.xml',
     ],
-    'installable': True,
-    'application': True,
+    'installable': False,
+    'auto_install': False,
     'assets': {
         'web.assets_backend': [
             'website_slides/static/src/activity/**/*',

@@ -20,7 +20,7 @@
     'demo': [
         'data/event_track_demo.xml'
     ],
-    'installable': True,
+    'installable': False,
     'assets': {
         'web.assets_frontend': [
             'website_event_track_live/static/src/scss/website_event_track_live.scss',

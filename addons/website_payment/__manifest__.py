@@ -22,6 +22,7 @@ This is a bridge module that adds multi-website support for payment providers.
         'views/snippets/s_donation.xml',
         'views/snippets/s_supported_payment_methods.xml',
     ],
+    'installable': False,
     'auto_install': True,
     'assets': {
         'web.assets_frontend': [

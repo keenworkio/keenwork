@@ -11,6 +11,8 @@ Coupon & promotion programs can be edited in the Catalog menu of the Website app
     'category': 'Website/Website',
     'version': '1.0',
     'depends': ['website_sale', 'website_links', 'sale_loyalty'],
+    'installable': False,
+    'auto_install': False,
     'data': [
         'security/ir.model.access.csv',
 

@@ -17,7 +17,8 @@ On a simple click, your visitors can subscribe to mailing lists managed in the E
         'views/snippets_templates.xml',
         'views/snippets/s_newsletter_benefits_popup.xml',
     ],
-    'auto_install': ['website', 'mass_mailing'],
+    'installable': False,
+    'auto_install': False,
     'assets': {
         'web.assets_frontend': [
             'website_mass_mailing/static/src/scss/website_mass_mailing.scss',

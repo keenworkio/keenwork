@@ -12,6 +12,8 @@
         'crm_iap_mine',
         'website_crm',
     ],
+    'installable': False,
+    'auto_install': False,
     'data': [
         'data/ir_cron_data.xml',
         'data/ir_model_data.xml',
